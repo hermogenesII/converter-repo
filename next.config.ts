@@ -1,7 +1,6 @@
-import { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  output: "export",
+const nextConfig = {
+  output: "export", // Ensures Next.js exports static files
+  distDir: "out", // Ensures output goes to 'out'
 };
 
 export default nextConfig;
